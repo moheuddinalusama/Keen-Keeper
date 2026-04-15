@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold tracking-tight">
               <span className="text-slate-900">Keen</span>
-              <span className="text-emerald-800">Keeper</span>
+              <span className="text-emerald-800"> Keeper</span>
             </h1>
           </div>
 
