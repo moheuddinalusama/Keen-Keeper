@@ -7,10 +7,9 @@ const Stats = () => {
   const [chartData, setChartData] = useState([]);
 
   useEffect(() => {
-    // লোকাল স্টোরেজ থেকে গ্লোবাল টাইমলাইন ডাটা গেট করা
+   
     const savedData = JSON.parse(localStorage.getItem('global_timeline')) || [];
-    
-    // ডাটা প্রসেস করে চার্টের ফরম্যাটে সাজানো
+
     const counts = savedData.reduce((acc, curr) => {
       acc[curr.type] = (acc[curr.type] || 0) + 1;
       return acc;
@@ -24,11 +23,11 @@ const Stats = () => {
     setChartData(formattedData);
   }, []);
 
-  // স্ক্রিনশট অনুযায়ী কালার প্যালেট
+  
   const COLORS = {
-    'Call': '#1a4731',   // ডার্ক গ্রিন
-    'Text': '#7c3aed',   // পার্পল
-    'Video': '#10b981',  // এমারেল্ড গ্রিন
+    'Call': '#1a4731',   
+    'Text': '#7c3aed',   
+    'Video': '#10b981',  
   };
 
   return (
@@ -36,12 +35,11 @@ const Stats = () => {
       <Navbar />
       
       <main className="flex-grow max-w-5xl mx-auto w-full px-6 py-12">
-        {/* টাইটেল সেকশন */}
+   
         <h1 className="text-4xl font-black text-[#1a2e2a] mb-12 tracking-tight">
           Friendship Analytics
         </h1>
         
-        {/* চার্ট কন্টেইনার কার্ড */}
         <div className="bg-white p-10 rounded-2xl border border-slate-100 shadow-sm min-h-[500px] flex flex-col">
           <h3 className="text-slate-400 font-bold text-sm uppercase tracking-[0.2em] mb-8">
             By Interaction Type
