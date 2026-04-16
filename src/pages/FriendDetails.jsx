@@ -94,16 +94,16 @@ const FriendDetails = () => {
 
           <div className="lg:col-span-9 space-y-6">
             <div className="grid grid-cols-3 gap-4">
-              <div className="bg-white p-7 rounded-xl border border-slate-100 shadow-sm text-center">
+              <div className="bg-white md:p-7 rounded-xl border border-slate-100 shadow-sm text-center">
                 <p className="text-4xl font-black text-slate-700">{friend.days_since_contact}</p>
                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-2">Days Since Contact</p>
               </div>
-              <div className="bg-white p-7 rounded-xl border border-slate-100 shadow-sm text-center">
+              <div className="bg-white md:p-7 rounded-xl border border-slate-100 shadow-sm text-center">
                 <p className="text-4xl font-black text-slate-700">{friend.goal}</p>
                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-2">Goal (Days)</p>
               </div>
-              <div className="bg-white p-7 rounded-xl border border-slate-100 shadow-sm text-center">
-                <p className="text-2xl font-black text-[#1a4731]">{friend.next_due_date}</p>
+              <div className="bg-white md:p-7 rounded-xl border border-slate-100 shadow-sm text-center">
+                <p className="text-xl font-black text-[#1a4731]">{friend.next_due_date}</p>
                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mt-4">Next Due</p>
               </div>
             </div>

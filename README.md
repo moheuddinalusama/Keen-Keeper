@@ -1,26 +1,29 @@
-# React + Vite
+আমার প্রোজেক্টের নাম
+🍃 KeenKeeper - Friendship Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+আমার প্রজেক্টের বর্ণনা
+**KeenKeeper**
+ হলো একটি আধুনিক এবং পার্সোনাল ড্যাশবোর্ড যা আপনাকে আপনার বন্ধুদের সাথে নিয়মিত যোগাযোগ রাখতে এবং সম্পর্ক আরও দৃঢ় করতে সাহায্য করবে। এটি মূলত আপনার ব্যক্তিগত সম্পর্কের একটি "CRM" হিসেবে কাজ করে।
 
-## React Compiler
 
-React (Vite)
+🚀 ব্যবহৃত প্রযুক্তি (Technologies Used)
 
-Tailwind CSS (v4)
+প্রকল্পটি তৈরি করতে আমি আধুনিক সব ওয়েব টেকনোলজি ব্যবহার করেছি:
 
-React Router Dom (Navigation)
+- **React.js (Vite):** মূল ইউজার ইন্টারফেস তৈরির জন্য।
+- **Tailwind CSS:** প্রফেশনাল এবং রেসপন্সিভ ডিজাইন নিশ্চিত করতে।
+- **React Router Dom:** সব পেজের মধ্যে নেভিগেশনের জন্য।
+- **Recharts:** বন্ধুদের সাথে যোগাযোগের ডাটা চার্ট আকারে দেখানোর জন্য।
+- **Lucide React:** সুন্দর এবং ক্লিন আইকন ব্যবহারের জন্য।
+- **LocalStorage:** ব্রাউজারে ডাটা স্থায়ীভাবে সেভ করে রাখার জন্য।
 
-Recharts (Analytics)
 
-Lucide React (Icons)
+ ✨ প্রজেক্টের ৩টি মূল বৈশিষ্ট্য (Key Features)
 
-React Hot Toast (Notifications)
+১. **Dynamic Timeline Logging:** প্রতিটি বন্ধুর প্রোফাইলে গিয়ে আপনি কল, টেক্সট বা ভিডিও কলের হিসাব রাখতে পারেন। এটি অটোমেটিক আপনার 'Timeline' পেজে জমা হয়ে যায়, ফলে আপনি সহজেই দেখতে পারেন কার সাথে শেষ কবে কথা হয়েছে।
 
-## Expanding the ESLint configuration
+২. **Friendship Analytics (Pie Chart):** Stats পেজে আপনি একটি ডাইনামিক পাই-চার্ট দেখতে পাবেন যা আপনার যোগাযোগের ধরন (Call, Text, Video) বিশ্লেষণ করে দেখায়। এটি Recharts লাইব্রেরি ব্যবহার করে তৈরি করা হয়েছে।
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+৩. **Status Tracking System:** আপনার বন্ধুদের বর্তমান অবস্থা (On-track, Almost due, Overdue) অনুযায়ী আলাদা আলাদা কালার কোড ব্যবহার করা হয়েছে। এর ফলে আপনি এক নজরেই বুঝতে পারবেন কোন বন্ধুকে এখন সময় দেওয়া সবচেয়ে বেশি জরুরি।
