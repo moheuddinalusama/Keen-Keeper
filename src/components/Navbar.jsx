@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
+    <nav className="bg-emerald-100/60 backdrop-blur-md border-b border-gray-100 shadow-md sticky top-0 z-50">
       <div className="mx-auto px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           

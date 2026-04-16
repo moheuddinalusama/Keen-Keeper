@@ -14,7 +14,7 @@ const FriendCard = ({ friend }) => {
   return (
     
     <Link to={`/friend/${friend.id}`} className="block h-full group">
-      <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:border-emerald-100 transition-all h-full flex flex-col items-center text-center">
+      <div className="bg-white p-6 rounded-2xl border border-gray-300 shadow-sm hover:shadow-md hover:border-emerald-100 transition-all h-full flex flex-col items-center text-center">
 
         <div className="relative mb-4">
           <img 

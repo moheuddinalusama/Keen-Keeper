@@ -35,7 +35,16 @@ const Footer = () => {
         </div>
         <div className="w-full border-t border-emerald-800/50 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-emerald-100/50 gap-4">
           <p>© 2026 KeenKeeper. All rights reserved.</p>
-          <p>moheuddim alusama</p>
+        
+
+
+<p className="max-w-xl text-emerald-200 text-sm md:text-base leading-relaxed mb-10">
+            Designed and Developed by <span className="text-white font-bold">Moheuddin Al Usama</span>
+           
+          </p>
+
+
+
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

@@ -86,9 +86,9 @@ const FriendDetails = () => {
             </div>
 
             <div className="bg-white rounded-xl border border-slate-100 overflow-hidden divide-y divide-slate-50 shadow-sm">
-              <button className="w-full flex items-center justify-center gap-2 py-3.5 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-colors"><BellOff size={16} /> Snooze 2 Weeks</button>
-              <button className="w-full flex items-center justify-center gap-2 py-3.5 text-sm font-bold text-slate-600 hover:bg-slate-50 transition-colors"><Archive size={16} /> Archive</button>
-              <button onClick={handleDelete} className="w-full flex items-center justify-center gap-2 py-3.5 text-sm font-bold text-rose-500 hover:bg-rose-50 transition-colors"><Trash2 size={16} /> Delete</button>
+              <button className="w-full flex items-center justify-center gap-2 py-3.5 text-sm font-bold text-slate-600 hover:bg-emerald-100 transition-colors"><BellOff size={16} /> Snooze 2 Weeks</button>
+              <button className="w-full flex items-center justify-center gap-2 py-3.5 text-sm font-bold text-slate-600 hover:bg-blue-100 transition-colors"><Archive size={16} /> Archive</button>
+              <button onClick={handleDelete} className="w-full flex items-center justify-center gap-2 py-3.5 text-sm font-bold text-rose-500 hover:bg-rose-100 transition-colors"><Trash2 size={16} /> Delete</button>
             </div>
           </div>
 
@@ -111,17 +111,17 @@ const FriendDetails = () => {
             <div className="bg-white p-7 rounded-xl border border-slate-100 shadow-sm">
               <h3 className="text-slate-800 font-extrabold mb-6 uppercase text-sm tracking-widest">Quick Check-In</h3>
               <div className="grid grid-cols-3 gap-4">
-                <button onClick={() => handleCheckIn('Call')} className="flex flex-col items-center justify-center p-8 bg-[#f8fafc] rounded-2xl hover:bg-emerald-50 hover:text-emerald-700 transition-all border border-transparent hover:border-emerald-100 group">
+                <button onClick={() => handleCheckIn('Call')} className="flex flex-col items-center justify-center p-8 bg-[#f8fafc] rounded-2xl hover:bg-emerald-100 hover:text-emerald-700 transition-all border border-transparent hover:border-emerald-200 group">
                   <Phone size={24} className="text-slate-700 group-hover:text-emerald-600 mb-2" />
-                  <span className="text-xs font-black uppercase">Call</span>
+                  <span className="text-xs font-black uppercase group-hover:text-emerald-600 text-slate-700">Call</span>
                 </button>
-                <button onClick={() => handleCheckIn('Text')} className="flex flex-col items-center justify-center p-8 bg-[#f8fafc] rounded-2xl hover:bg-emerald-50 hover:text-emerald-700 transition-all border border-transparent hover:border-emerald-100 group">
+                <button onClick={() => handleCheckIn('Text')} className="flex flex-col items-center justify-center p-8 bg-[#f8fafc] rounded-2xl hover:bg-emerald-100 hover:text-emerald-700 transition-all border border-transparent hover:border-emerald-200 group">
                   <MessageSquare size={24} className="text-slate-700 group-hover:text-emerald-600 mb-2" />
-                  <span className="text-xs font-black uppercase">Text</span>
+                  <span className="text-xs font-black uppercase group-hover:text-emerald-600 text-slate-700">Text</span>
                 </button>
-                <button onClick={() => handleCheckIn('Video')} className="flex flex-col items-center justify-center p-8 bg-[#f8fafc] rounded-2xl hover:bg-emerald-50 hover:text-emerald-700 transition-all border border-transparent hover:border-emerald-100 group">
+                <button onClick={() => handleCheckIn('Video')} className="flex flex-col items-center justify-center p-8 bg-[#f8fafc] rounded-2xl hover:bg-emerald-100 hover:text-emerald-700 transition-all border border-transparent hover:border-emerald-200 group">
                   <Video size={24} className="text-slate-700 group-hover:text-emerald-600 mb-2" />
-                  <span className="text-xs font-black uppercase">Video</span>
+                  <span className="text-xs font-black uppercase group-hover:text-emerald-600 text-slate-700">Video</span>
                 </button>
               </div>
             </div>
