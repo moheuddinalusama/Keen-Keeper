@@ -37,7 +37,7 @@ const FriendCard = ({ friend }) => {
 
         <div className="flex flex-wrap justify-center gap-1 mb-4 flex-grow">
           {friend?.tags?.map((tag, index) => (
-            <span key={index} className="flex items-center gap-1 text-[10px] bg-slate-50 text-slate-500 px-2 py-0.5 rounded border border-slate-100">
+            <span key={index} className="flex items-center gap-1 text-[10px] bg-orange-200 text-slate-500 px-2 py-0.5 rounded border border-slate-100">
               <Tag size={10} />
               {tag}
             </span>

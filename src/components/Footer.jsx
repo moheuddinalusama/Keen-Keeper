@@ -38,7 +38,7 @@ const Footer = () => {
         
 
 
-<p className="max-w-xl text-emerald-200 text-sm md:text-base leading-relaxed mb-10">
+<p className="max-w-xl text-emerald-200 text-sm md:text-base leading-relaxed ">
             Designed and Developed by <span className="text-white font-bold">Moheuddin Al Usama</span>
            
           </p>

@@ -54,7 +54,7 @@ const Timeline = () => {
                     setFilter(type);
                     setShowDropdown(false);
                   }}
-                  className="w-full text-left px-4 py-3 text-xs font-bold uppercase tracking-widest text-slate-500 hover:bg-slate-50 hover:text-[#1a2e2a] transition-colors border-b last:border-0 border-slate-50"
+                  className="w-full text-left px-4 py-3 text-xs font-bold uppercase tracking-widest text-slate-500 hover:bg-slate-200 hover:text-[#1a2e2a] transition-colors border-b last:border-0 border-slate-50"
                 >
                   {type}
                 </button>
