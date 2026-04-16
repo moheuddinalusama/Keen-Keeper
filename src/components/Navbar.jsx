@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Home, Clock, BarChart3, Menu, X } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom'; // ১. Link এবং useLocation ইমপোর্ট করুন
+import { Link, useLocation } from 'react-router-dom'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
