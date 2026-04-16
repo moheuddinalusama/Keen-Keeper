@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Tag } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const FriendCard = ({ friend }) => {
   if (!friend) return null;
@@ -11,8 +12,9 @@ const FriendCard = ({ friend }) => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all group h-full">
-      <div className="flex flex-col items-center text-center h-full">
+    
+    <Link to={`/friend/${friend.id}`} className="block h-full group">
+      <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:border-emerald-100 transition-all h-full flex flex-col items-center text-center">
 
         <div className="relative mb-4">
           <img 
@@ -57,7 +59,7 @@ const FriendCard = ({ friend }) => {
         </div>
 
       </div>
-    </div>
+    </Link>
   );
 };
 
