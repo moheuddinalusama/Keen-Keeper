@@ -13,7 +13,7 @@ function App() {
       
         <Route path="/" element={<Home />} />
         
-        <Route path="*" element={<NotFound />} />  
+         
        
         <Route path="/friend/:id" element={<FriendDetails />} />
 
@@ -22,6 +22,7 @@ function App() {
 
         
         <Route path="/stats" element={<Stats />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
     </Router>
   );
